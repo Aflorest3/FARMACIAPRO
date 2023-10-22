@@ -1,0 +1,110 @@
+/* Estilos para centrar el contenido del formulario de registro en la pantalla */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 500px;
+}
+
+html,body{
+    background-image: url('https://tinypic.host/images/2023/09/29/Fondofarmacia_.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+/* Los estilos generales para el formulario de registro siguen aquí */
+.card {
+    background-color: #81ccb8 !important;
+    width: 500px;
+    height: 570px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-label {
+    font-size: 18px;
+}
+
+.card-header {
+    background-color: #00AEEE;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.col-md-4.col-form-label.text-md-right {
+    text-align: right;
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.invalid-feedback {
+    color: #ff0000;
+}
+
+.btn-primary {
+    background-color: #00AEEE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+}
+
+
+
+.btn-primary:hover {
+    background-color: red;
+}
+
+/* Ajusta el tamaño de la tarjeta y los márgenes */
+.card {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.social-icons-container {
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    z-index: 2;
+    height: 240px;
+    width: 60px;
+    background-color: #00A550;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.social-icons span {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white;
+}

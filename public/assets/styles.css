@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+    background-image: url('https://tinypic.host/images/2023/09/29/Fondofarmacia_.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.social-icons-container {
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    z-index: 2;
+    height: 240px;
+    width: 60px;
+    background-color: #00A550;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.social-icons span {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.card{
+    height: 525px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 350px;
+    background-color: #81ccb8 !important;
+}
+
+.card-header h3{
+    color: white;
+}
+
+
+
+.input-group-prepend span{
+    width: 50px;
+    background-color:  #ffffff;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.remember{
+    color:  #497168;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: black;
+    background-color: #00AEEE;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color:  #d3eae4;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+/* boton primario */
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: red;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
